@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Poiret+One&family=Roboto&family=Roboto+Condensed:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Roboto&family=Roboto+Condensed:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Roboto&family=Roboto+Condensed:ital,wght@0,100;1,100&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background: conic-gradient(from 90deg at 25% -10%, #ff4500, #d3f340, #7bee85, #afeeee, #7bee85);
+    font-family: 'Comfortaa', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 50px;
+font-weight: bold;
+
+
+}
+
+.container{
+
+      position: relative;
+      height: 90vh;
+      margin: auto;
+      width: 80%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+
+      
+      
+            
+}
+.clock-container{
+ border: 5px solid rgba(180, 8, 8, 0.105);
+ background-color: rgba(75, 60, 60, 0.445);  
+ align-items: center;
+ color: white;
+ display: flex;
+ 
+ }
+ .clock-container h1{
+    margin: 20px;
+  }
+
+  @media(max-width:760px){
+ 
+    body{
+        font-size: 20px;
+    }
+    .clock-container{
+        background-color: #12111133;
+        flex-direction: column;
+
+    }
+ #bar1, #bar2, #bar3{
+    display: none;
+ }
+
+}
